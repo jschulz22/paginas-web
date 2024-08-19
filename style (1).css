@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-fondo: #2E2E2E;
+    --color-texto: #E0E0E0;
+    --color-titulos: #BDE8CA;
+    --color-footer: #41B3A2;
+    --color-subtitulos: D7C3F1;
+
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+
+    background-color: var(--color-fondo); /* Fondo oscuro */
+    color: var(--color-texto); /* Texto claro y legible */
+    font-family: var(--fuente-montserrat);
+}
+
+
+.header{
+    padding: 2% 0% 0% 7%;
+}
+
+.header_home{
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.header_home_mi{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-subtitulos); /* Gris claro para subtítulos */
+    font-family: var(--fuente-montserrat);
+    text-decoration: none;
+
+}
+
+.header_home_mi:hover{
+    color: #FFFFFF; /* Texto blanco en el botón */
+}
+
+
+.titulo-destaque {
+    color: var(--color-footer); /* Color vibrante para destacar */
+}
+
+.presentacion {
+    display: flex;
+    padding: 4% 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--color-titulos); /* Color vibrante para el título */
+}
+
+.presentacion__texto {
+    font-size: 24px;
+    color: var(--color-texto); /* Color del texto en el fondo oscuro */
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-subtitulos); /* Gris claro para subtítulos */
+}
+
+.subtitulo_1 {
+    font-family: var(--fuente-montserrat);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-subtitulos); /* Gris claro para subtítulos */
+}
+
+.boton_liga {
+    width: 380px;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 22px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    height: auto;
+    color: #FFFFFF; /* Texto blanco en el botón */
+    display: flex;
+    border: 2px solid #fcf8f8; /* Borde oscuro del botón */
+}
+
+
+
+
+
+.footer{
+    background-color: var(--color-footer);
+    padding: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.boton_liga:hover{
+    background-color: #4d4c4c;
+}
