@@ -10,7 +10,4 @@ Este repositorio contiene la página web personal de Ana García, desarrollada c
 
 * Flex-box
 
-## Hecho por:
-
-###Ana García
 
